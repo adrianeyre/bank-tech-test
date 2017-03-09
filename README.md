@@ -45,7 +45,7 @@ $ rspec
 
 ## <a name="Usage">Usage</a>
 irb
-```
+```ruby
 $ require "./lib/account"
 $ account = Account.new
 $ account.deposit(100.99)
