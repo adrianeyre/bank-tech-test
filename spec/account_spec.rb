@@ -8,7 +8,7 @@ describe Account do
     describe "#initialize" do
       it "should have an empty balance" do
         expect(account.balance).to eq 0
-        expect(account.statement).to eq []
+        expect(account.statement).to eq "date || credit || debit || balance"
       end
     end
 

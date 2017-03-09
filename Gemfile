@@ -2,5 +2,7 @@ source "https://rubygems.org"
 
 ruby '2.3.0'
 
-gem "rspec"
-gem 'timecop'
+group :test do
+  gem "rspec"
+  gem 'timecop'
+end
