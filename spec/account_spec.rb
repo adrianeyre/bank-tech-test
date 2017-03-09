@@ -1,12 +1,14 @@
 require "account"
 
 describe Account do
-  subject(:account) {described_class.new}
+  let(:statement) {Statement.new}
+  subject(:account) {described_class.new(statement)}
 
   context "New Account" do
     describe "#initialize" do
       it "should have an empty balance" do
         expect(account.balance).to eq 0
+        expect(account.statement).to eq []
       end
     end
 
