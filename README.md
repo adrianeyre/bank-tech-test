@@ -44,3 +44,11 @@ $ rspec
 ```
 
 ## <a name="Usage">Usage</a>
+irb
+```
+$ require "./lib/account"
+$ account = Account.new
+$ account.deposit(100.99)
+$ account.withdrawal(100.99)
+$ puts account.statement
+```
