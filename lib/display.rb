@@ -2,7 +2,6 @@ class Display
 
   Header = ["date","credit","debit","balance"]
   HeaderLength = [4,6,5,7]
-  Space  = "        "
 
   def show(statement, header=Header)
     @display_output = []
