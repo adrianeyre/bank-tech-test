@@ -1,11 +1,11 @@
 # Bank Tech Test
 #### Technologies: 
-### [Makers Academy] (http://www.makersacademy.com) - Week 10 Solo Tech Test
+### [Makers Academy](http://www.makersacademy.com) - Week 10 Solo Tech Test
 
 ## Index
-* [Installation] (#Install)
-* [Rspec Tests] (#Rspec)
-* [Usage] (#Usage)
+* [Installation](#Install)
+* [Rspec Tests](#Rspec)
+* [Usage](#Usage)
 
 ## Challenege
 
